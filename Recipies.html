@@ -1,0 +1,321 @@
+<html>
+<head>
+<title>  The Dragon's Oven  </title>
+
+<link rel="stylesheet" type="text/css" href="Style.css" />
+
+</head>
+
+<body>
+<nav>
+<ul> 
+<li><a href="The Dragon's Oven.html" style="margin:0; padding:0px;">
+<img src="Svg.svg" alt="Home" style="width:70px; margin:0; padding:0;"></a></li>
+<li><a href="Recipies.html">Recipes</a>		
+<li><a href="Special Offers.html">Special Offers</a></li>
+<li><a href="Delivery.html">Delivery</a>
+<li><a href="Contact Us.html">Contact us</a></li>
+</ul>
+</nav>
+
+
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="Donut.jpg" style="width:100%">
+    <div class="text">Donuts</div>
+  </div>
+
+  <div class="mySlides fade">   
+    <img src="brownies-pic.jpg" style="width:100%">
+    <div class="text">Brownies</div>
+  </div>
+
+  <div class="mySlides fade">    
+    <img src="Cheese cake.jpg" style="width:100%">
+    <div class="text">Cheese Cake</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<style>
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+</style>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script><br>
+<br>
+
+<h2>Donuts</h2>
+Cook: 30 mins<br>
+Total: 2 hrs 40 mins<br>
+Servings: 18  <br><br>
+
+Ingredients:<br><br>
+2 (.25 ounce) envelopes active dry yeast<br>
+¼ cup warm water (105 to 115 degrees)<br>
+1½ cups lukewarm milk<br>
+½ cup white sugar<br>
+1 teaspoon salt<br>
+2 eggs<br>
+⅓ cup shortening<br>
+5 cups all-purpose flour<br>
+1 quart vegetable oil for frying<br>
+⅓ cup butter<br>
+2 cups confectioners' sugar<br>
+1½ teaspoons vanilla<br>
+4 tablespoons hot water or as needed <br><br>
+
+Step 1<br>
+Sprinkle the yeast over the warm water, and let stand for 5 minutes, or until foamy.<br><br>
+
+Step 2<br>
+In a large bowl, mix together the yeast mixture, milk, sugar, salt, eggs, shortening,
+ and 2 cups of the flour. Mix for a few minutes at low speed, or stirring with a wooden spoon.
+ Beat in remaining flour 1/2 cup at a time, until the dough no longer sticks to the bowl.
+ Knead for about 5 minutes, or until smooth and elastic.
+ Place the dough into a greased bowl, and cover.
+ Set in a warm place to rise until double. Dough is ready if you touch it, and the indention remains.<br><br>
+
+Step 3<br>
+Turn the dough out onto a floured surface, and gently roll out to 1/2 inch thickness.
+ Cut with a floured doughnut cutter.
+ Let doughnuts sit out to rise again until double. Cover loosely with a cloth.<br><br>
+
+Step 4<br>
+Melt butter in a saucepan over medium heat.
+ Stir in confectioners' sugar and vanilla until smooth. Remove from heat,
+ and stir in hot water one tablespoon at a
+ time until the icing is somewhat thin, but not watery. Set aside.<br><br>
+
+Step 5<br>
+Heat oil in a deep-fryer or large heavy skillet to 350 degrees F (175 degrees C).
+ Slide doughnuts into the hot oil using a wide spatula.
+ Turn doughnuts over as they rise to the surface.
+ Fry doughnuts on each side until golden brown. Remove from hot oil, to drain on a wire rack.
+ Dip doughnuts into the glaze while still hot, and set onto wire racks to drain off excess.
+ Keep a cookie sheet or tray under racks for easier clean up.<br>
+
+<h2>Brownies</h2>
+Servings: 16 <br><br>
+
+Ingredients: <br><br>
+½ cup butter<br>
+1 cup white sugar<br>
+2 eggs<br>
+1 teaspoon vanilla extract<br>
+⅓ cup unsweetened cocoa powder<br>
+½ cup all-purpose flour<br>
+¼ teaspoon salt<br>
+¼ teaspoon baking powder<br><br>
+
+Frosting:<br><br>
+3 tablespoons butter, softened<br>
+3 tablespoons unsweetened cocoa powder<br>
+1 tablespoon honey<br>
+1 teaspoon vanilla extract<br>
+1 cup confectioners' sugar<br><br>
+
+
+Step 1<br>
+Preheat oven to 350 degrees F (175 degrees C). Grease and flour an 8-inch square pan.<br><br>
+
+Step 2<br>
+In a large saucepan, melt 1/2 cup butter.
+ Remove from heat, and stir in sugar, eggs, and 1 teaspoon vanilla.
+ Beat in 1/3 cup cocoa, 1/2 cup flour, salt, and baking powder.
+ Spread batter into prepared pan.<br><br>
+
+Step 3<br>
+Bake in preheated oven for 25 to 30 minutes. Do not overcook.<br><br>
+
+Step 4<br>
+To Make Frosting: Combine 3 tablespoons softened butter,
+ 3 tablespoons cocoa, honey, 1 teaspoon vanilla extract,
+ and 1 cup confectioners' sugar. Stir until smooth.
+ Frost brownies while they are still warm.<br><br>
+
+<h2>Cheese Cake</h2>
+Total Time: 7hrs 35mins <br>
+Servings: 12 slices <br><br>
+
+Ingredients:<br><br>
+Graham Cracker Crust¹<br>
+1 ½ cups graham cracker crumbs (170g)<br>
+2 Tablespoons sugar<br>
+1 Tablespoon brown sugar (can substitute white)<br>
+7 Tablespoons butter melted<br><br>
+
+Cheesecake<br>
+32 oz cream cheese² softened to room temperature (910g)<br>
+1 cup sugar (200g)<br>
+⅔ cups sour cream (160g)<br>
+1 ½ teaspoons vanilla extract<br>
+⅛ teaspoon salt<br>
+4 large eggs room temperature, lightly beaten<br><br>
+
+Instructions<br>
+Preheat oven to 325F (160C).<br>
+Prepare Graham Cracker crust first by combining graham cracker crumbs,
+ sugar, and brown sugar, and stirring well.<br>
+ Add melted butter and use a fork to combine ingredients well.<br>
+Pour crumbs into a 9” Springform pan and press firmly into the bottom and up the sides of your pan. Set aside.<br><br>
+
+Cheesecake<br>
+1. In the bowl of a stand mixer or in a large bowl (using a hand mixer)
+ add cream cheese and stir until smooth and creamy
+ (don’t over-beat or you’ll incorporate too much air).<br><br>
+2. Add sugar and stir again until creamy.<br><br>
+3. Add sour cream, vanilla extract, and salt, and stir until well-combined.
+ If using a stand mixer, make sure you pause periodically to scrape the
+ sides and bottom of the bowl with a spatula so that all ingredients are evenly incorporated.<br><br>
+4. With mixer on low speed, gradually add lightly beaten eggs, one at a time, stirring just
+ until each egg is just incorporated. Once all eggs have been added, use a spatula to
+ scrape the sides and bottom of the bowl again and make sure all ingredients are well combined.<br><br>
+5. Pour cheesecake batter into prepared springform pan. To insure against leaks,
+ place pan on a cookie sheet that’s been lined with foil.<br><br>
+6. Transfer to the center rack of your oven and bake on 325F (160C) for about 75 minutes.
+ Edges will likely have slightly puffed and may have just begun to turn a light golden
+ brown and the center should spring back to the touch but will still be Jello-jiggly.
+ Don't over-bake or the texture will suffer, which means we all suffer.<br><br>
+7. Remove from oven and allow to cool on top of the oven³ for 10 minutes.
+ Once 10 minutes has passed, use a knife to gently loosen the crust from
+ the inside of the springform pan (this will help prevent cracks as your cheesecake cools and shrinks).<br><br>
+8. Allow cheesecake to cool another 1-2 hours or until near room temperature before
+ transferring to refrigerator and allowing to cool overnight or at least 6 hours. Enjoy!<br><br>
+
+</body>
+</html>
